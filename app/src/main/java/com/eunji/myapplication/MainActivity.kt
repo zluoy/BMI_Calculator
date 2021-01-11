@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         button2.setOnClickListener {
             val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("weight",weight.text.toString())
+            intent.putExtra("height",height.text.toString())
             startActivity(intent)
         }
     }

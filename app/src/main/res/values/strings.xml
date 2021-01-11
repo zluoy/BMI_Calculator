@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="hello_world">hello world</string>
-    <string name="textview">TextView</string>
-    <string name="todo">TODO</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="result" translatable="false">결과</string>
+    <string name="height" translatable="false">키</string>
 </resources>
