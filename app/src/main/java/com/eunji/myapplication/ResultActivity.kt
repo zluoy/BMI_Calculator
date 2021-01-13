@@ -36,7 +36,7 @@ class ResultActivity : AppCompatActivity() {
         }
 
 
-        Toast.makeText(this,"$bmi",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"BMI :: $bmi",Toast.LENGTH_SHORT).show()
 
 
     }
